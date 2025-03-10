@@ -4,12 +4,15 @@ import org.apache.zeppelin.interpreter.Interpreter;
 import org.apache.zeppelin.interpreter.InterpreterContext;
 import org.apache.zeppelin.interpreter.InterpreterException;
 import org.apache.zeppelin.interpreter.InterpreterResult;
+import org.slf4j.Logger;
+import org.slf4j.LoggerFactory;
 
 import java.util.Properties;
 
 public class CustomInterpreter extends Interpreter {
     public CustomInterpreter(Properties properties) {
         super(properties);
+        Logger logger = LoggerFactory.getLogger(CustomInterpreter.class);
     }
 
     @Override
