@@ -2,7 +2,7 @@
   {
     "group": "filecp",
     "name": "hdfscp",
-    "className": "org.apache.zeppelin.file.HDFSFileInterpreter",
+    "className": "org.apache.zeppelin.filecp.CustomInterpreter",
     "properties": {
       "hdfs.url": {
         "envName": null,
