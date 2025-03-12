@@ -72,7 +72,6 @@
 <!--    <module>hbase</module>-->
 <!--    <module>jdbc</module>-->
     <module>file</module>
-    <module>filecp</module>
 <!--    <module>flink</module>-->
 <!--    <module>flink-cmd</module>-->
 <!--    <module>influxdb</module>-->
