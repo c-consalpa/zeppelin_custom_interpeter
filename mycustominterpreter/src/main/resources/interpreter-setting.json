@@ -1,0 +1,20 @@
+[
+  {
+    "group": "mycustominterpretergroup",
+    "name": "mycustominterpreter",
+    "className": "io.arenadata.zeppelin.mycustominterpreter.CustomInterpreter",
+    "properties": {
+      "my.dummy.property": {
+        "envName": null,
+        "propertyName": "my.dummy.property",
+        "defaultValue": "foo bar",
+        "description": "A dummy property set via interpreter-setting.json",
+        "type": "url"
+      }
+    },
+    "editor": {
+      "editOnDblClick": false,
+      "completionSupport": true
+    }
+  }
+]

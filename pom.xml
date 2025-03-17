@@ -72,6 +72,7 @@
 <!--    <module>hbase</module>-->
 <!--    <module>jdbc</module>-->
     <module>file</module>
+    <module>mycustominterpreter</module>
 <!--    <module>flink</module>-->
 <!--    <module>flink-cmd</module>-->
 <!--    <module>influxdb</module>-->
