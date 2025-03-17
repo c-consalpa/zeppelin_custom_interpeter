@@ -17,34 +17,34 @@ public class CustomInterpreter extends Interpreter {
 
     @Override
     public void open() throws InterpreterException {
-        logger.info("open");
+        logger.info("Stub method called: open()");
     }
 
     @Override
     public void close() throws InterpreterException {
-        logger.info("close()");
+        logger.info("Stub method called: close()");
     }
 
     @Override
     public InterpreterResult interpret(String st, InterpreterContext context) throws InterpreterException {
-        logger.info("interpret()");
+        logger.info("Stub method called: interpret()");
         return null;
     }
 
     @Override
     public void cancel(InterpreterContext context) throws InterpreterException {
-        logger.info("cancel()");
+        logger.info("Stub method called: cancel()");
     }
 
     @Override
     public FormType getFormType() throws InterpreterException {
-        logger.info("getFormType()");
+        logger.info("Stub method called: getFormType()");
         return null;
     }
 
     @Override
     public int getProgress(InterpreterContext context) throws InterpreterException {
-        logger.info("getProgress()");
+        logger.info("Stub method called: getProgress()");
         return 0;
     }
 }
