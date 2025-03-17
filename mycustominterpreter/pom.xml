@@ -27,13 +27,13 @@
     <relativePath>../zeppelin-interpreter-parent/pom.xml</relativePath>
   </parent>
 
-  <artifactId>zeppelin-file</artifactId>
+  <artifactId>zeppelin-mycustominterpreter</artifactId>
   <packaging>jar</packaging>
-  <name>Zeppelin: File System Interpreters</name>
+  <name>Zeppelin: My Custom Interpreter</name>
 
   <properties>
     <!--library versions-->
-    <interpreter.name>file</interpreter.name>
+    <interpreter.name>mycustominterpreter</interpreter.name>
     <ws.rsapi.version>2.0</ws.rsapi.version>
     <jersey.common.version>2.22.2</jersey.common.version>
   </properties>
